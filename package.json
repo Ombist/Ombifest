@@ -1,0 +1,21 @@
+{
+  "name": "ombifest",
+  "version": "1.0.0",
+  "description": "TLS leaf pin and signed pin manifest tooling for Ombist iOS (Ed25519, Swift-compatible canonical JSON).",
+  "type": "module",
+  "bin": {
+    "ombifest": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^15.15.0"
+  }
+}
