@@ -20,3 +20,7 @@ docker run --rm -p 8080:80 ombifest-static
 ```
 
 For production, terminate **TLS** in front (e.g. Caddy/Nginx on host or CDN).
+
+## Security checklist
+
+Before relying on a hosted manifest in production, walk through [docs/supply-chain-security.md](../docs/supply-chain-security.md) (key custody, `verify` + leaf pin checks, dual-pin rotation, monitoring). Pin rotation calendar: [docs/ios-pin-rotation-calendar.md](../../docs/ios-pin-rotation-calendar.md).
